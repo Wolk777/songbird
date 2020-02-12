@@ -1,0 +1,44 @@
+.responseItem {
+  padding: 10px;
+  background-color: #575350;
+  border: 1px solid #2c2421;
+  cursor: pointer;
+  &:hover {
+    background-color: darkred;
+  }
+}
+.error:hover {
+  background-color: #575350;
+  cursor: default;
+}
+.fa-music{
+  padding: 7px;
+  color: #2c2421;
+}
+.correct {
+  color: chartreuse;
+}
+.errorIcon {
+  color: darkred;
+}
+.responseItemTitle {
+  padding: 5px 15px;
+  font-size: 1.3em;
+  color: #fff;
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .responseItem{
+    flex: 1 1 135px;
+    padding: 3px;
+  }
+  .responseItemTitle {
+    padding: 5px;
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .responseItem{
+    padding: 5px 25px;
+    flex: 1 1 200px;
+  }
+}

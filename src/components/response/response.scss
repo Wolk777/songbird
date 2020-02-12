@@ -1,0 +1,21 @@
+.responseList {
+  flex:1;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .responseList {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .responseList{
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
